@@ -53,13 +53,13 @@ namespace Plantain {
         /// Called when a Performer or the game object it is on turns on.
         /// </summary>
         /// <param name="p"></param>
-        public abstract void OnPerformerActivate(Performer p);
+        public virtual void OnPerformerActivate(Performer p) { }
 
         /// <summary>
         /// Called when a Performer or the game object it is on turns off
         /// </summary>
         /// <param name="p"></param>
-        public abstract void OnPerformerDeactivate(Performer p);
+        public virtual void OnPerformerDeactivate(Performer p) { }
 
         /*
         *	Gizmo Drawing Functions

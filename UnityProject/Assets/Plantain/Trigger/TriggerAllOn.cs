@@ -24,9 +24,6 @@ public class TriggerAllOn : Trigger {
         requiredPerformers.RemoveAll(p => p == null);
     }
     
-    override public void OnPerformerActivate(Performer p) { }
-    override public void OnPerformerDeactivate(Performer p) { }
-
     void FixedUpdate() {
         if(isActive) {
             requiredPerformers.RemoveAll(p => p == null);

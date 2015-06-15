@@ -30,9 +30,6 @@ public class TriggerEverythingDead : Trigger {
         }
     }
 
-    override public void OnPerformerActivate(Performer p) { }
-    override public void OnPerformerDeactivate(Performer p) { }
-
     void OnDrawGizmos() {
         TriggerGizmos("EverythingDead");
         GizmoTargetedObjects(thingsToDie);

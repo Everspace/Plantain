@@ -14,9 +14,6 @@ public class TriggerPropagator : Trigger {
     /// </summary>
     protected bool procced = false;
     
-    override public void OnPerformerActivate(Performer p) { }
-    override public void OnPerformerDeactivate(Performer p) { }
-
     public void PerformTrigger(TriggerOption tOption) {
         if(!procced && isActive) {
             procced = true;
