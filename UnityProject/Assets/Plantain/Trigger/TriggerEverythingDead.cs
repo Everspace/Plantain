@@ -24,7 +24,7 @@ public class TriggerEverythingDead : Trigger {
             thingsToDie.RemoveAll(i => i == null);
 
             if(thingsToDie.Count <= 0) {
-                trigger();
+                Fire();
                 isActive = false;
             }
         }

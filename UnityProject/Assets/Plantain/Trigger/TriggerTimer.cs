@@ -40,7 +40,7 @@ public class TriggerTimer : Trigger {
             }
 
             if(_time <= 0) {
-                trigger();
+                Fire();
 
                 if(autoReset) {
                     onPerformerActivate();
@@ -51,8 +51,8 @@ public class TriggerTimer : Trigger {
         }
     }
 
-    override protected void trigger() {
-        base.trigger();
+    override protected void Fire() {
+        base.Fire();
         onPerformerActivate();
     }
 

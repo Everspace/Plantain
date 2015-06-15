@@ -40,7 +40,7 @@ public class TriggerAllOn : Trigger {
                 }
 
                 if(allOn && !procced) {
-                    trigger();
+                    Fire();
                     procced = true;
                 } else if (!allOn) {
                     procced = false;

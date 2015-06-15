@@ -45,7 +45,7 @@ namespace Plantain {
         /// <summary>
         /// Alert performers of what state to change to based on the current <see cref="TriggerOption"/>.
         /// </summary>
-        protected virtual void trigger() {
+        protected virtual void Fire() {
             SendMessage("PerformTrigger", triggerOption, SendMessageOptions.DontRequireReceiver);
         }
 

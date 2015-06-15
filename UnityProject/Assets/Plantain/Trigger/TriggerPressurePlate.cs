@@ -27,7 +27,7 @@ public class TriggerPressurePlate : Trigger {
     void OnTriggerEnter(Collider other) {
         if(isActive) {
             if(acceptedTags.IndexOf(other.tag) >= 0) {
-                trigger();
+                Fire();
                 if(isOneShot) {
                     isActive = false;
                 }
@@ -38,7 +38,7 @@ public class TriggerPressurePlate : Trigger {
     void OnTriggerExit(Collider other) {
         if(isActive) {
             if(acceptedTags.IndexOf(other.tag) >= 0) {
-                trigger();
+                Fire();
             }
         }
     }

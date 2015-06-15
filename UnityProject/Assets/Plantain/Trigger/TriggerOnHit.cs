@@ -21,7 +21,7 @@ public class TriggerOnHit : Trigger {
     void OnCollisionEnter(Collision other) {
         if(isActive) {
             if(acceptedTags.IndexOf(other.collider.tag) >= 0) {
-                trigger();
+                Fire();
                 if(isOneShot) {
                     isActive = false;
                 }
