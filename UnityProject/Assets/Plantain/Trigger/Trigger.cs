@@ -36,7 +36,7 @@ namespace Plantain {
         /// <summary>
         /// Director for Trigger Gizmos
         /// </summary>
-        protected string gizmoPath = "Plantain\\Triggers\\";
+        protected string gizmoPath = "Plantain\\Trigger\\";
 
         /*
         *	Plantain Functions

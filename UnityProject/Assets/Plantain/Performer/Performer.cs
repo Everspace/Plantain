@@ -30,7 +30,7 @@ namespace Plantain {
         /// <summary>
         /// The location of the gizmos
         /// </summary>
-        protected string gizmoPath = "Plantain\\Performers\\";
+        protected string gizmoPath = "Plantain\\Performer\\";
 
         /*
         *	Unity Functions
