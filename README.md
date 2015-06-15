@@ -3,9 +3,15 @@ A component based visual scripting solution for Unity.
 
 ## Why Plantain?
 
+### Visual Scripting
+
+Allow team members to create things without developer supervision. Reuse code that you've already made. Glue together new and old scripts easily.
+
 ### Built like Unity
 
-Plantain is designed to mimic Unity's component system, with many different and small parts acting in unison. Individual components are easy to understand because they don't do much, and then can do many interesting things when combined later.
+Plantain looks and behaves like other common Unity objects, making it easy to pick up and use if you don't want to look at the scripts underneath for people who want to just make "stuff" rather than code.
+
+Like Unity's component system, many different and small parts act in unison. Individual components are easy to understand because they don't do much, and then can do many interesting things when combined.
 
 <a href="http://imgur.com/pdn60Up"><img src="http://i.imgur.com/pdn60Up.gif" title="source: imgur.com" /></a>
 
@@ -13,9 +19,19 @@ Plantain is designed to mimic Unity's component system, with many different and 
 
 Edit whatever you want, find out how something works, and adjust it to your preferences. Let me know what you've made and how it's been used. Feel free to do a pull request if you have a thing that you think others can use.
 
+### Easy to extend
+
+The code behind the things you use is easy to understand, and create new Plantain components.
+
+Copy and paste that "GameObject OnClick" tutorial you looked up in a `Trigger`, and click to open doors or move platforms without having to code any more.
+
 ### Features banana-like-objects
 
 Truely revolutionary.
+
+## Using Plantain
+
+Example scenes are in the `UnityProject\Examples` folder. 
 
 ## Extending Plantain
 
